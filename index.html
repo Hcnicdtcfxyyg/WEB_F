@@ -20,8 +20,12 @@
             <h1><a href="index.html">
                 <img class="logo" src="https://www.free-materials.com/adm/wp-content/uploads/2020/10/logo_03.png" alt="WcafeHome">
             </a></h1>
+            <!--ロゴ画像とテキストが同じ <a> タグに入っていても、「文法的に間違い（禁止）」というわけではありません。
+                ですが<a> タグの中身が縦に並んでしまうため<a> タグ（リンク）は、デフォルトで中に含まれる要素を上から順に並べます。ブラウザは「画像を表示したあと、そのすぐ下（または横）に Wcafe という文字を表示する」と判断します。
+                    そのため、ロゴ画像の下に「Wcafe」という文字が飛び出してしまい、ヘッダーの高さが増えてレイアウトが大きく崩れる原因になります。
+            -->
             <nav>
-                <ul class="main-nav">
+                <ul class="main-nav wrapper">
                     <li><a href="news.html">News</a></li>
                     <li><a href="menu.html">Menu</a></li>
                     <li><a href="contact.html">Contact</a></li>
