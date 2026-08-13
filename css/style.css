@@ -44,4 +44,42 @@ img{
     max-width:1100px;
     margin:0 auto;
     padding:0 4%;
+    /*
+    ax-width: 1100px;
+    効果: 横幅の限界（最大値）を1100ピクセルに制限します。理由: 大きなモニターで見たときに、文章やロゴが画面の端から端まで広がりすぎて読みづらくなるのを防ぎます。
+    margin: 0 auto;
+    効果: 上下には余白を作らず（0）、左右の余白を自動計算して中央に配置します（auto）。理由: これを入れることで、どんな画面サイズでもコンテンツが常に画面の真ん中に寄ります。
+    padding: 0 4%;
+    効果: 左右の内側に 4% の余白を作ります。理由: スマホなどの画面幅が狭い端末で開いたときに、文字や画像が画面の左端・右端にピッタリくっついて見づらくなるのを防ぐ「安全帯」の役割をします
+    */
+}
+
+/*HOME*/
+.home-content{
+    text-align:center;
+    margin-top:10%;
+}
+.home-contect p{
+    font-size:1.125rem;
+    margin:10px 0 42px;
+}
+
+/*見出し*/
+.page-title{
+    font-size:5rem;
+    font-family:'Philosopher',serif;
+    text-transform:uppercase;
+    font-weight:normal;
+}
+
+/*ボタン*/
+.button{
+    font-size:1.375rem;
+    background:#0bd;
+    color:#fff;
+    border-radius:5px;
+    padding:18px 32px;
+}
+.button:hover{
+    background:#0090aa;
 }
