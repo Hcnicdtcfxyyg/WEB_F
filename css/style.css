@@ -83,3 +83,23 @@ img{
 .button:hover{
     background:#0090aa;
 }
+
+/*大きな画像*/
+.big-bg{
+    background-size:cover;
+    background-position:center top;
+    background-repeat:no-repeat;
+}
+#home{
+    background-image:url(https://cdn.pakutaso.com/shared/img/thumb/ogasuta458A7873_TP_V.jpg);
+    min-height:100vh;
+}
+/*
+#home.page-title （スペースなし）：
+「id="home" と class="page-title" を両方持っている1つの要素」という意味になってしまいます。
+#home .page-title （半角スペースあり）：
+「id="home" の中にある class="page-title"（見出し要素）」という意味になります。
+*/
+#home .page-title{
+    text-transform:none;
+}
