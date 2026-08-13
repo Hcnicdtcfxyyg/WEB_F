@@ -91,8 +91,20 @@ img{
     background-repeat:no-repeat;
 }
 #home{
-    background-image:url(https://cdn.pakutaso.com/shared/img/thumb/ogasuta458A7873_TP_V.jpg);
+    background-image:url(https://cdn.pakutaso.com/shared/img/thumb/ogasuta458A7873_TP_V.jpg),linear-gradient(#c9ffbf,#ffafbd);
+    background-blend-mode:luminosity;
     min-height:100vh;
+    /*単色を画像に重ね合わせる
+    background-color:#0bd;
+    */
+    /*　画像とブレンドさせる
+    background-blend-mode:hard-light;
+    min-height:100vh;
+    */
+    /*グラデーションカラー　画像なし
+    background-image:radial-gradient(#c9ffbf,#ffafbd);
+    */
+
 }
 /*
 #home.page-title （スペースなし）：
