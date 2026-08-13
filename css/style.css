@@ -33,6 +33,6 @@ img{
 .main-nav a{
     color:#432;
 }
-.main-nav{
+.main-nav a:hover{
     color:#0bd;
 }
