@@ -240,11 +240,13 @@ footer p{
 }
 /*記事*/
 article{
-    width:74%;
+    width:60%;
+    order:2;
 }
 /*サイドバー*/
 aside{
     width:22%;
+    order:3;
 }
 .news-contents{
     display:flex;
@@ -315,4 +317,9 @@ aside p{
 }
 .sub-menu a:hover{
     color:#0bd;
+}
+.ad{
+    height: 100%;
+    width:20%;
+    order:1;
 }

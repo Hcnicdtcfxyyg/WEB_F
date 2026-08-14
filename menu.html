@@ -1,75 +1,54 @@
-<!--AI作成-->
 <!doctype html>
 <html lang="ja">
     <head>
         <meta charset="utf-8">
-        <title>Menu - Wcafe</title>
-        <meta name="description" content="Wcafeのメニュー紹介">
+        <title>Wcafe-NEWS</title>
+        <meta name="description" content="ブレンドコーヒー">
 
-        <!-- CSS -->
+        <!--CSS-->
         <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
         <link href="css/style.css" rel="stylesheet">
 
         <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cause:wght@100..900&family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+
+        <!--ファビコン　ファビコンジェネレーターhttps://realfavicongenerator.net/-->
+        <link rel="icon" type="image/png" href="https://www.free-materials.com/adm/wp-content/uploads/2020/10/logo_03.png">
     </head>
 
     <body>
-        <!-- ヘッダー（index.htmlと共通） -->
-        <header class="page-header wrapper">
-            <h1>
-                <a href="index.html">
+        <div id="menu" class="big-bg">
+            <header class="page-header wrapper">
+                <h1><a href="index.html">
                     <img class="logo" src="https://www.free-materials.com/adm/wp-content/uploads/2020/10/logo_03.png" alt="WcafeHome">
-                </a>
-            </h1>
-            <nav>
-                <ul class="main-nav">
-                    <li><a href="news.html">News</a></li>
-                    <li><a href="menu.html">Menu</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <!-- メニューメインコンテンツ -->
-        <main class="wrapper">
-            <h2 class="page-title">Menu</h2>
-
-            <div class="menu-grid">
-                <!-- メニューアイテム 1 -->
-                <article class="menu-item">
-                    <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=500" alt="ブレンドコーヒー">
-                    <h3>Wブレンドコーヒー</h3>
-                    <p>厳選した豆をじっくり焙煎した、コクと深みのある自家製ブレンド。</p>
-                    <span class="price">¥500</span>
-                </article>
-
-                <!-- メニューアイテム 2 -->
-                <article class="menu-item">
-                    <img src="https://images.unsplash.com/photo-1534778101976-62847782c213?w=500" alt="カフェラテ">
-                    <h3>カフェラテ</h3>
-                    <p>濃厚なエスプレッソとまろやかなミルクのバランスが絶妙な一杯。</p>
-                    <span class="price">¥580</span>
-                </article>
-
-                <!-- メニューアイテム 3 -->
-                <article class="menu-item">
-                    <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=500" alt="チーズケーキ">
-                    <h3>ベイクドチーズケーキ</h3>
-                    <p>濃厚でしっとりとした味わい。コーヒーとの相性抜群です。</p>
-                    <span class="price">¥650</span>
-                </article>
-
-                <!-- メニューアイテム 4 -->
-                <article class="menu-item">
-                    <img src="https://images.unsplash.com/photo-1525351484163-7529414344d8?w=500" alt="アボカドトースト">
-                    <h3>アボカド＆エッグトースト</h3>
-                    <p>フレッシュなアボカドと半熟たまごをのせた香ばしいトースト。</p>
-                    <span class="price">¥850</span>
-                </article>
-            </div>
-        </main>
+                </a></h1>
+                <!--ロゴ画像とテキストが同じ <a> タグに入っていても、「文法的に間違い（禁止）」というわけではありません。
+                    ですが<a> タグの中身が縦に並んでしまうため<a> タグ（リンク）は、デフォルトで中に含まれる要素を上から順に並べます。ブラウザは「画像を表示したあと、そのすぐ下（または横）に Wcafe という文字を表示する」と判断します。
+                    そのため、ロゴ画像の下に「Wcafe」という文字が飛び出してしまい、ヘッダーの高さが増えてレイアウトが大きく崩れる原因になります。
+                -->
+                <nav>
+                    <ul class="main-nav">
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="wrapper">
+                <h2 class="page-title">menu</h2>
+            </div><!-- /.wrapper-->  
+            <p>
+                kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkop
+            </p>
+            </div><!-- /.menu-contents-->
+             <footer>
+                <div class="wrapper">
+                    <p><small>&copy;2026 Manabox</small></p>
+                </div>
+            </footer>
+        </div><!-- /#home -->
+        
     </body>
 </html>
