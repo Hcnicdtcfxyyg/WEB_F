@@ -78,6 +78,18 @@
     textarea{
         max-width:100%;
     }
+    /*店舗情報・地図・SNS*/
+    #location .wrapper{
+        flex-direction: column;
+    }
+    .location-info,
+    .location-map,
+    .sns-box{
+        width:100%;
+    }
+    .sns-box{
+        margin-bottom: 30px;
+    }
 }
 /*共通部分*/
 html{
@@ -432,4 +444,19 @@ input[type="submit"]{
 /*iframe*/
 iframe{
     width:100%;
+}
+/*SNS*/
+#sns{
+    background:#FaF7F0;
+    padding:4% 0;
+}
+#sns .wrapper{
+    display:flex;
+    justify-content:space-between;
+}
+#sns .sub-title{
+    margin-bottom: 30px;
+}
+.sns-box{
+    width:30%;
 }
