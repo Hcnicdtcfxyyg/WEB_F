@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>Wcafe-CONTACT</title>
+        <meta name="description" content="ブレンドコーヒー">
+
+        <!--CSS-->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link href="css/style.css" rel="stylesheet">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cause:wght@100..900&family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+
+        <!--ファビコン　ファビコンジェネレーターhttps://realfavicongenerator.net/-->
+        <link rel="icon" type="image/png" href="https://www.free-materials.com/adm/wp-content/uploads/2020/10/logo_03.png">
+    </head>
+
+    <body>
+        <div id="contact" class="big-bg">
+            <header class="page-header wrapper">
+                <h1><a href="index.html">
+                    <img class="logo" src="https://www.free-materials.com/adm/wp-content/uploads/2020/10/logo_03.png" alt="WcafeHome">
+                </a></h1>
+                <!--ロゴ画像とテキストが同じ <a> タグに入っていても、「文法的に間違い（禁止）」というわけではありません。
+                    ですが<a> タグの中身が縦に並んでしまうため<a> タグ（リンク）は、デフォルトで中に含まれる要素を上から順に並べます。ブラウザは「画像を表示したあと、そのすぐ下（または横）に Wcafe という文字を表示する」と判断します。
+                    そのため、ロゴ画像の下に「Wcafe」という文字が飛び出してしまい、ヘッダーの高さが増えてレイアウトが大きく崩れる原因になります。
+                -->
+                <nav>
+                    <ul class="main-nav">
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="weapper">
+                <h2 class="page-title">Contact</h2>
+                <from action="#">
+                    <div>
+                        <label for="name">お名前</label>
+                        <input type="text" id="name" name="your-name">
+                    </div>
+                    <div>
+                        <label for="email">メールアドレス</label>
+                        <input type="email" id="email" name="your-email">
+                    </div>
+                    <div>
+                        <label for="message">メッセージ</label>
+                        <textarea id="massage" name="you-message"></textarea>
+                    </div>
+                    <input type="submit" class="button" value="送信">
+                </from>
+            </div>
+        </div><!--/#contact-->
+
+        <section id="location">
+            <div class="wrapper">
+                <div class="location-info">
+                    <h3 class="sub-title">かふぇ○○店</h3>
+                    <p>
+                        住所：ｄｄｄ<br>
+                        dadadfffffff<br>
+                        電話：０００００００<br>
+                    </p>
+                </div><!-- /location-info -->
+                <div class="location-map">
+                    Google Map<br>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123840.44150465228!2d139.63738459889834!3d35.34867879893837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60186b3271fda071%3A0x5e91ef79ed0eebc!2z56ys5LqM5rW35aCh!5e0!3m2!1sja!2sjp!4v1786705293083!5m2!1sja!2sjp" width="800" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                </div><!-- /.location-map -->
+            </div><!--/.wrapper-->
+        </section><!--/#location-->
+        <footer>
+                <div class="wrapper">
+                    <p><small>&copy;2026 Manabox</small></p>
+                </div>
+            </footer>
+    </body>
+</html>
